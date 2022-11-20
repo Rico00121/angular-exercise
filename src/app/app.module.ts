@@ -29,7 +29,11 @@ import { ShippingComponent } from './shipping/shipping.component';
       {
         path: 'cart',
          component: CartComponent
-      }
+      },
+      { 
+        path: 'shipping',
+        component: ShippingComponent
+      },
     ])
   ],
   declarations: [
